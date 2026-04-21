@@ -395,7 +395,12 @@ document.addEventListener('keydown', (e) => {
 });
 
 // ===== CONTACT FORM =====
-const API_BASE = 'http://localhost:3001'; // Change to your production URL when deploying
+// API Base URL: set this to your Vercel deployment URL after deploying
+// Example: 'https://idstation.vercel.app'
+// Local dev uses localhost:3001, production uses the Vercel URL below
+const API_BASE = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+  ? 'http://localhost:3001'
+  : 'https://station-lyart.vercel.app'; // Vercel API
 
 if (contactForm) {
   contactForm.addEventListener('submit', async (e) => {
