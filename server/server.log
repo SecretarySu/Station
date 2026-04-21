@@ -1,0 +1,3 @@
+🚀 Veinashe server running at http://localhost:3001
+📋 Health check: http://localhost:3001/health
+📡 Inquiry endpoint: POST http://localhost:3001/api/inquiry

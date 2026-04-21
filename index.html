@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Veinashe Bags — Professional Handbag Manufacturer & OEM Supplier</title>
+  <meta name="description" content="Foshan Veinashe Bags Co., Ltd. 专业的箱包制造商和OEM供应商，提供高品质皮革包包、时尚手袋定制服务。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Raleway:wght@300;400;500;600&family=Noto+Serif+SC:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== LOADER ===== -->
+  <div class="loader" id="loader">
+    <div class="loader-inner">
+      <span class="loader-brand">VEINASHE</span>
+      <div class="loader-line"></div>
+    </div>
+  </div>
+
+  <!-- ===== CURSOR ===== -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header class="header" id="header">
+    <div class="header-inner">
+      <a href="#" class="logo">
+        <span class="logo-main">VEINASHE</span>
+        <span class="logo-sub">BAGS</span>
+      </a>
+      <div class="nav-right">
+        <nav class="nav" id="nav">
+          <a href="#about" class="nav-link" data-i18n="nav.about">关于我们</a>
+          <a href="#collections" class="nav-link" data-i18n="nav.collections">产品系列</a>
+          <a href="#craft" class="nav-link" data-i18n="nav.process">合作流程</a>
+          <a href="#contact" class="nav-link nav-cta" data-i18n="nav.contact">联系我们</a>
+        </nav>
+        <button class="lang-switch" id="langSwitch" aria-label="Switch Language">
+          <span class="lang-label" id="langLabel">中</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="14" height="14"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10A15.3 15.3 0 0 1 12 2z"/></svg>
+        </button>
+      </div>
+      <button class="menu-btn" id="menuBtn" aria-label="菜单">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== MOBILE MENU ===== -->
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-menu-inner">
+      <a href="#about" class="mobile-nav-link" data-i18n="nav.about">关于我们</a>
+      <a href="#collections" class="mobile-nav-link" data-i18n="nav.collections">产品系列</a>
+      <a href="#craft" class="mobile-nav-link" data-i18n="nav.process">合作流程</a>
+      <a href="#contact" class="mobile-nav-link mobile-nav-cta" data-i18n="nav.contact">联系我们</a>
+    </div>
+  </div>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="hero-bg-img" id="heroBg" style="background-image:url('products/slide06_img017.png')"></div>
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal-up">FOSHAN, CHINA · EST. 2025</p>
+      <h1 class="hero-title reveal-up" data-i18n-html="hero.title">
+        <span data-zh="专业" data-en="Professional">专业</span>
+        <em data-zh="手袋" data-en="Handbag">手袋</em>
+        <span data-zh="制造商" data-en="Manufacturer">制造商</span>
+      </h1>
+      <p class="hero-desc reveal-up" data-i18n-html="hero.desc">
+        专业的箱包制造商与OEM供应商<br>品质卓越 · 匠心制造 · 远销全球
+      </p>
+      <div class="hero-actions reveal-up">
+        <a href="#collections" class="btn btn-light" data-i18n="hero.browse">浏览产品</a>
+        <a href="#contact" class="btn btn-outline-light" data-i18n="hero.contact">联系咨询</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <div class="hero-scroll-line"></div>
+      <span data-i18n="hero.scroll">向下探索</span>
+    </div>
+  </section>
+
+  <!-- ===== MARQUEE ===== -->
+  <div class="marquee-wrap">
+    <div class="marquee-track" data-i18n-marquee>
+      <span data-zh="手工品质" data-en="HANDMADE QUALITY">手工品质</span>
+      <span class="marquee-dot">·</span>
+      <span data-zh="OEM / ODM" data-en="OEM / ODM">OEM / ODM</span>
+      <span class="marquee-dot">·</span>
+      <span data-zh="时尚手袋" data-en="FASHION BAGS">时尚手袋</span>
+      <span class="marquee-dot">·</span>
+      <span data-zh="真皮手袋" data-en="LEATHER HANDBAGS">真皮手袋</span>
+      <span class="marquee-dot">·</span>
+      <span data-zh="全球配送" data-en="GLOBAL SHIPPING">全球配送</span>
+      <span class="marquee-dot">·</span>
+      <span data-zh="定制生产" data-en="CUSTOM PRODUCTION">定制生产</span>
+      <span class="marquee-dot">·</span>
+      <span data-zh="手工品质" data-en="HANDMADE QUALITY">手工品质</span>
+      <span class="marquee-dot">·</span>
+      <span data-zh="OEM / ODM" data-en="OEM / ODM">OEM / ODM</span>
+      <span class="marquee-dot">·</span>
+      <span data-zh="时尚手袋" data-en="FASHION BAGS">时尚手袋</span>
+      <span class="marquee-dot">·</span>
+      <span data-zh="真皮手袋" data-en="LEATHER HANDBAGS">真皮手袋</span>
+      <span class="marquee-dot">·</span>
+      <span data-zh="全球配送" data-en="GLOBAL SHIPPING">全球配送</span>
+      <span class="marquee-dot">·</span>
+      <span data-zh="定制生产" data-en="CUSTOM PRODUCTION">定制生产</span>
+      <span class="marquee-dot">·</span>
+    </div>
+  </div>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="brand-intro" id="about">
+    <div class="container">
+      <div class="brand-intro-grid">
+        <div class="brand-intro-img-wrap">
+          <div class="brand-intro-img brand-img-1">
+            <img src="products/slide06_img017.png" alt="Veinashe" loading="lazy" />
+          </div>
+          <div class="brand-intro-img brand-img-2">
+            <img src="products/slide02_img000.png" alt="Veinashe" loading="lazy" />
+          </div>
+        </div>
+        <div class="brand-intro-text">
+          <p class="section-eyebrow reveal-up">ABOUT US</p>
+          <h2 class="section-title reveal-up">Foshan Veinashe<br><em>Bags Co., Ltd.</em></h2>
+          <p class="section-desc reveal-up" data-i18n="about.p1">佛山Veinashe箱包有限公司是一家专业的手袋制造商和OEM供应商。我们专注于高品质皮革包包的设计、生产与定制，服务于全球品牌客户与零售商。</p>
+          <p class="section-desc reveal-up" data-i18n="about.p2">从经典托特包到时尚单肩包、斜挎包、手拿包等，我们提供丰富的产品线和灵活的定制服务，满足不同市场与客户的个性化需求。</p>
+          <div class="brand-stats reveal-up">
+            <div class="stat-item">
+              <span class="stat-num">139+</span>
+              <span class="stat-label" data-i18n="stat.products">款型产品</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">20+</span>
+              <span class="stat-label" data-i18n="stat.collections">产品系列</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">OEM</span>
+              <span class="stat-label" data-i18n="stat.custom">代工定制</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COLLECTIONS ===== -->
+  <section class="collections" id="collections">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <p class="section-eyebrow">OUR COLLECTIONS</p>
+        <h2 class="section-title" data-i18n-html="collections.title">产品<em>系列</em></h2>
+        <p class="section-subtitle" data-i18n="collections.subtitle">点击产品卡片查看更多细节与配色方案</p>
+      </div>
+
+      <div class="collections-filter reveal-up">
+        <button class="filter-btn active" data-filter="all" data-i18n="filter.all">全部</button>
+        <button class="filter-btn" data-filter="has-desc" data-i18n="filter.specs">有详细规格</button>
+        <button class="filter-btn" data-filter="gallery" data-i18n="filter.gallery">产品图册</button>
+      </div>
+
+      <div class="collections-grid" id="collectionsGrid">
+
+        <!-- ===== Product 1: Dharma Stick Bag (Slide 11) ===== -->
+        <div class="product-card reveal-up" data-category="has-desc" data-slide="11">
+          <div class="product-img-wrap">
+            <img src="products/slide11_img037.jpg" alt="Dharma Stick Bag" loading="lazy" />
+            <div class="product-overlay">
+              <a href="#contact" class="product-overlay-btn" data-i18n="product.inquire">咨询详情</a>
+            </div>
+            <span class="product-badge" data-i18n="badge.best">热销款</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Dharma Stick Bag</h3>
+            <p class="product-name-cn" data-i18n="p1.name">达摩棍子包</p>
+            <p class="product-desc">长26cm · 宽11cm · 高8cm</p>
+            <div class="product-colors">
+              <span class="color-tag">白色</span>
+              <span class="color-tag">黑色</span>
+              <span class="color-tag">奶茶色</span>
+              <span class="color-tag">焦糖色</span>
+              <span class="color-tag">酒红色</span>
+              <span class="color-tag">浅绿</span>
+              <span class="color-tag">浅蓝</span>
+              <span class="color-tag">云灰</span>
+            </div>
+          </div>
+          <div class="product-gallery-thumbs">
+            <img src="products/slide11_img038.jpg" alt="" loading="lazy" />
+            <img src="products/slide11_img039.jpg" alt="" loading="lazy" />
+            <img src="products/slide11_img040.jpg" alt="" loading="lazy" />
+          </div>
+        </div>
+
+        <!-- ===== Product 2: Commuter Armband Bag (Slide 12) ===== -->
+        <div class="product-card reveal-up" data-category="has-desc" data-slide="12">
+          <div class="product-img-wrap">
+            <img src="products/slide12_img041.jpg" alt="Commuter Armband Bag" loading="lazy" />
+            <div class="product-overlay">
+              <a href="#contact" class="product-overlay-btn" data-i18n="product.inquire">咨询详情</a>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Commuter Armband Bag</h3>
+            <p class="product-name-cn" data-i18n="p2.name">时尚通勤手提斜挎包</p>
+            <p class="product-desc">上宽21cm · 下宽24cm · 高12cm · 厚8cm</p>
+            <div class="product-colors">
+              <span class="color-tag">彩虹粉</span>
+              <span class="color-tag">白色</span>
+              <span class="color-tag">卡其</span>
+              <span class="color-tag">棕色</span>
+              <span class="color-tag">果绿</span>
+              <span class="color-tag">浅绿</span>
+              <span class="color-tag">黄色</span>
+              <span class="color-tag">白棕拼色</span>
+              <span class="color-tag">黑棕拼色</span>
+            </div>
+          </div>
+          <div class="product-gallery-thumbs">
+            <img src="products/slide12_img042.jpg" alt="" loading="lazy" />
+            <img src="products/slide12_img043.jpg" alt="" loading="lazy" />
+            <img src="products/slide12_img044.jpg" alt="" loading="lazy" />
+          </div>
+        </div>
+
+        <!-- ===== Product 3: Down Pine Eaves Bag (Slide 13) ===== -->
+        <div class="product-card reveal-up" data-category="has-desc" data-slide="13">
+          <div class="product-img-wrap">
+            <img src="products/slide13_img045.jpg" alt="Down Pine Eaves Bag" loading="lazy" />
+            <div class="product-overlay">
+              <a href="#contact" class="product-overlay-btn" data-i18n="product.inquire">咨询详情</a>
+            </div>
+            <span class="product-badge new" data-i18n="badge.new">新款</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Down Pine Eaves Bag</h3>
+            <p class="product-name-cn" data-i18n="p3.name">松下歪檐包 春夏通勤款</p>
+            <p class="product-desc">长18cm · 高10cm · 厚9cm</p>
+            <div class="product-colors">
+              <span class="color-tag">黑色</span>
+              <span class="color-tag">开运红</span>
+              <span class="color-tag">荔枝粉</span>
+              <span class="color-tag">木棕色</span>
+              <span class="color-tag">水雾蓝</span>
+              <span class="color-tag">杏仁黄</span>
+              <span class="color-tag">瓦灰</span>
+              <span class="color-tag">烟墨黑</span>
+              <span class="color-tag">枇杷棕</span>
+            </div>
+          </div>
+          <div class="product-gallery-thumbs">
+            <img src="products/slide13_img046.jpg" alt="" loading="lazy" />
+            <img src="products/slide13_img047.jpg" alt="" loading="lazy" />
+            <img src="products/slide13_img048.jpg" alt="" loading="lazy" />
+            <img src="products/slide13_img049.jpg" alt="" loading="lazy" />
+          </div>
+        </div>
+
+        <!-- ===== Product 4: Pearl Chain Handbag (Slide 14) ===== -->
+        <div class="product-card reveal-up" data-category="has-desc" data-slide="14">
+          <div class="product-img-wrap">
+            <img src="products/slide14_img050.jpg" alt="Pearl Chain Handbag" loading="lazy" />
+            <div class="product-overlay">
+              <a href="#contact" class="product-overlay-btn" data-i18n="product.inquire">咨询详情</a>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Pearl Chain Handbag</h3>
+            <p class="product-name-cn" data-i18n="p4.name">中式珍珠链手提包</p>
+            <p class="product-desc" data-i18n="p4.desc">手工刺绣提花 · 优雅女士肩挎包</p>
+          </div>
+          <div class="product-gallery-thumbs">
+            <img src="products/slide14_img051.jpg" alt="" loading="lazy" />
+            <img src="products/slide14_img052.jpg" alt="" loading="lazy" />
+            <img src="products/slide14_img053.jpg" alt="" loading="lazy" />
+            <img src="products/slide14_img054.jpg" alt="" loading="lazy" />
+            <img src="products/slide14_img055.jpg" alt="" loading="lazy" />
+          </div>
+        </div>
+
+        <!-- ===== Product 5: Lacquer Leather Handbag (Slide 15) ===== -->
+        <div class="product-card reveal-up" data-category="has-desc" data-slide="15">
+          <div class="product-img-wrap">
+            <img src="products/slide15_img056.jpg" alt="Lacquer Leather Handbag" loading="lazy" />
+            <div class="product-overlay">
+              <a href="#contact" class="product-overlay-btn" data-i18n="product.inquire">咨询详情</a>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Lacquer Leather Handbag</h3>
+            <p class="product-name-cn" data-i18n="p5.name">漆皮大号横款手袋 26cm</p>
+          </div>
+          <div class="product-gallery-thumbs">
+            <img src="products/slide15_img057.jpg" alt="" loading="lazy" />
+            <img src="products/slide15_img058.jpg" alt="" loading="lazy" />
+            <img src="products/slide15_img059.jpg" alt="" loading="lazy" />
+            <img src="products/slide15_img060.jpg" alt="" loading="lazy" />
+            <img src="products/slide15_img061.jpg" alt="" loading="lazy" />
+            <img src="products/slide15_img062.jpg" alt="" loading="lazy" />
+            <img src="products/slide15_img063.jpg" alt="" loading="lazy" />
+          </div>
+        </div>
+
+        <!-- ===== Product 6: Niche Moon Bag (Slide 16) ===== -->
+        <div class="product-card reveal-up" data-category="has-desc" data-slide="16">
+          <div class="product-img-wrap">
+            <img src="products/slide16_img064.jpg" alt="Niche Moon Bag" loading="lazy" />
+            <div class="product-overlay">
+              <a href="#contact" class="product-overlay-btn" data-i18n="product.inquire">咨询详情</a>
+            </div>
+            <span class="product-badge" data-i18n="badge.best">热销款</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Niche Moon Bag</h3>
+            <p class="product-name-cn" data-i18n="p6.name">小众月亮包</p>
+            <p class="product-desc">长27cm · 宽7cm · 高11/17cm</p>
+            <div class="product-colors">
+              <span class="color-tag">米色</span>
+              <span class="color-tag">黑色</span>
+              <span class="color-tag">粉色</span>
+              <span class="color-tag">勃艮第红</span>
+              <span class="color-tag">焦糖色</span>
+              <span class="color-tag">咖啡色</span>
+            </div>
+          </div>
+          <div class="product-gallery-thumbs">
+            <img src="products/slide16_img065.jpg" alt="" loading="lazy" />
+            <img src="products/slide16_img066.jpg" alt="" loading="lazy" />
+            <img src="products/slide16_img067.jpg" alt="" loading="lazy" />
+            <img src="products/slide16_img068.jpg" alt="" loading="lazy" />
+            <img src="products/slide16_img069.jpg" alt="" loading="lazy" />
+          </div>
+        </div>
+
+        <!-- ===== Product 7: Splicing Kelly Bag (Slide 17) ===== -->
+        <div class="product-card reveal-up" data-category="has-desc" data-slide="17">
+          <div class="product-img-wrap">
+            <img src="products/slide17_img070.jpg" alt="Splicing Kelly Bag" loading="lazy" />
+            <div class="product-overlay">
+              <a href="#contact" class="product-overlay-btn" data-i18n="product.inquire">咨询详情</a>
+            </div>
+            <span class="product-badge">VB001</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Splicing Kelly Bag</h3>
+            <p class="product-name-cn" data-i18n="p7.name">拼接款 Kelly 包 2025新款</p>
+            <p class="product-desc" data-i18n="p7.desc">底部长25/30cm · 手持方包 · 通用斜挎</p>
+          </div>
+          <div class="product-gallery-thumbs">
+            <img src="products/slide17_img071.jpg" alt="" loading="lazy" />
+            <img src="products/slide17_img072.jpg" alt="" loading="lazy" />
+            <img src="products/slide17_img073.jpg" alt="" loading="lazy" />
+            <img src="products/slide17_img074.jpg" alt="" loading="lazy" />
+            <img src="products/slide17_img075.jpg" alt="" loading="lazy" />
+            <img src="products/slide17_img076.jpg" alt="" loading="lazy" />
+            <img src="products/slide17_img077.jpg" alt="" loading="lazy" />
+            <img src="products/slide17_img078.jpg" alt="" loading="lazy" />
+            <img src="products/slide17_img079.jpg" alt="" loading="lazy" />
+          </div>
+        </div>
+
+        <!-- ===== Product 8: Retro Suede Shoulder Bag (Slide 18) ===== -->
+        <div class="product-card reveal-up" data-category="has-desc" data-slide="18">
+          <div class="product-img-wrap">
+            <img src="products/slide18_img080.jpg" alt="Retro Suede Shoulder Bag" loading="lazy" />
+            <div class="product-overlay">
+              <a href="#contact" class="product-overlay-btn" data-i18n="product.inquire">咨询详情</a>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Retro Suede Shoulder Bag</h3>
+            <p class="product-name-cn" data-i18n="p8.name">小众轻奢复古翻毛皮肩包</p>
+            <p class="product-desc">长36cm · 高15cm · 厚13cm</p>
+            <div class="product-colors">
+              <span class="color-tag">勃艮第红</span>
+              <span class="color-tag">咖啡色</span>
+              <span class="color-tag">焦糖色</span>
+            </div>
+          </div>
+          <div class="product-gallery-thumbs">
+            <img src="products/slide18_img081.jpg" alt="" loading="lazy" />
+            <img src="products/slide18_img082.jpg" alt="" loading="lazy" />
+            <img src="products/slide18_img083.jpg" alt="" loading="lazy" />
+            <img src="products/slide18_img084.jpg" alt="" loading="lazy" />
+            <img src="products/slide18_img085.jpg" alt="" loading="lazy" />
+          </div>
+        </div>
+
+        <!-- ===== Product 9a: Small Trendy Crossbody (Slide 19) ===== -->
+        <div class="product-card reveal-up" data-category="has-desc" data-slide="19">
+          <div class="product-img-wrap">
+            <img src="products/slide19_img086.jpg" alt="Small Trendy Crossbody" loading="lazy" />
+            <div class="product-overlay">
+              <a href="#contact" class="product-overlay-btn" data-i18n="product.inquire">咨询详情</a>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Small Trendy Crossbody</h3>
+            <p class="product-name-cn" data-i18n="p9a.name">小巧时尚通用斜挎包</p>
+            <p class="product-desc">长27cm · 高13cm · 厚6cm</p>
+            <div class="product-colors">
+              <span class="color-tag">米白</span>
+              <span class="color-tag">黑色</span>
+              <span class="color-tag">焦糖色</span>
+              <span class="color-tag">咖啡色</span>
+            </div>
+          </div>
+          <div class="product-gallery-thumbs">
+            <img src="products/slide19_img087.jpg" alt="" loading="lazy" />
+            <img src="products/slide19_img088.jpg" alt="" loading="lazy" />
+          </div>
+        </div>
+
+        <!-- ===== Product 9b: Baseball Boston Bag (Slide 19) ===== -->
+        <div class="product-card reveal-up" data-category="has-desc" data-slide="19">
+          <div class="product-img-wrap">
+            <img src="products/slide19_img089.jpg" alt="Baseball Boston Bag" loading="lazy" />
+            <div class="product-overlay">
+              <a href="#contact" class="product-overlay-btn" data-i18n="product.inquire">咨询详情</a>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Baseball Boston Bag</h3>
+            <p class="product-name-cn" data-i18n="p9b.name">棒球经典波士顿包</p>
+            <p class="product-desc" data-i18n="p9b.desc">中号手袋 · 新款单肩斜挎包</p>
+          </div>
+          <div class="product-gallery-thumbs">
+            <img src="products/slide19_img090.jpg" alt="" loading="lazy" />
+            <img src="products/slide19_img091.jpg" alt="" loading="lazy" />
+          </div>
+        </div>
+
+        <!-- ===== Product 10: Vegetable Basket Bag (Slide 21) ===== -->
+        <div class="product-card reveal-up" data-category="has-desc" data-slide="21">
+          <div class="product-img-wrap">
+            <img src="products/slide21_img098.jpg" alt="Vegetable Basket Bag" loading="lazy" />
+            <div class="product-overlay">
+              <a href="#contact" class="product-overlay-btn" data-i18n="product.inquire">咨询详情</a>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Vegetable Basket Bag</h3>
+            <p class="product-name-cn" data-i18n="p10.name">小众菜篮子手提斜挎包</p>
+            <p class="product-desc">上宽27cm · 下宽15cm · 高13cm · 厚10cm</p>
+            <div class="product-colors">
+              <span class="color-tag">米白</span>
+              <span class="color-tag">黑色</span>
+              <span class="color-tag">勃艮第红</span>
+              <span class="color-tag">杏色</span>
+            </div>
+          </div>
+          <div class="product-gallery-thumbs">
+            <img src="products/slide21_img099.jpg" alt="" loading="lazy" />
+          </div>
+        </div>
+
+        <!-- ===== Product 11: Thousand Bird Grid Tote (Slide 22) ===== -->
+        <div class="product-card reveal-up" data-category="has-desc" data-slide="22">
+          <div class="product-img-wrap">
+            <img src="products/slide22_img100.jpg" alt="Thousand Bird Grid Tote" loading="lazy" />
+            <div class="product-overlay">
+              <a href="#contact" class="product-overlay-btn" data-i18n="product.inquire">咨询详情</a>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Thousand Bird Grid Tote</h3>
+            <p class="product-name-cn" data-i18n="p11.name">千鸟格撞色托特包 大容量旅行包</p>
+            <p class="product-desc">长31cm · 高17cm · 厚10cm</p>
+            <div class="product-colors">
+              <span class="color-tag">黑色</span>
+              <span class="color-tag">浅棕色</span>
+            </div>
+          </div>
+          <div class="product-gallery-thumbs">
+            <img src="products/slide22_img101.jpg" alt="" loading="lazy" />
+            <img src="products/slide22_img102.jpg" alt="" loading="lazy" />
+            <img src="products/slide22_img103.jpg" alt="" loading="lazy" />
+          </div>
+        </div>
+
+        <!-- ===== Gallery: VB007-VB009 (Slide 2) ===== -->
+        <div class="product-card reveal-up" data-category="gallery" data-slide="2">
+          <div class="product-img-wrap">
+            <img src="products/slide02_img000.png" alt="VB007" loading="lazy" />
+            <div class="product-overlay">
+              <a href="#contact" class="product-overlay-btn" data-i18n="product.inquire">咨询详情</a>
+            </div>
+            <span class="product-badge">VB007</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">VB007 / VB008 / VB009</h3>
+            <p class="product-name-cn" data-i18n="g2.name">经典手袋系列</p>
+            <p class="product-desc" data-i18n="g2.desc">可选多种材质 · 尺寸 · 颜色 · 功能</p>
+          </div>
+          <div class="product-gallery-thumbs">
+            <img src="products/slide02_img001.png" alt="VB008" loading="lazy" />
+            <img src="products/slide02_img002.png" alt="VB009" loading="lazy" />
+            <img src="products/slide02_img003.png" alt="" loading="lazy" />
+            <img src="products/slide02_img004.png" alt="" loading="lazy" />
+          </div>
+        </div>
+
+        <!-- ===== Gallery: Slide 3-10 ===== -->
+        <div class="product-card reveal-up" data-category="gallery" data-slide="3">
+          <div class="product-img-wrap">
+            <img src="products/slide03_img005.png" alt="" loading="lazy" />
+            <div class="product-overlay">
+              <a href="#contact" class="product-overlay-btn" data-i18n="product.inquire">咨询详情</a>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Collection A</h3>
+            <p class="product-name-cn" data-i18n="gallery.name">精选手袋系列 A</p>
+            <p class="product-desc" data-i18n="gallery.desc">多款配色可选 · OEM定制</p>
+          </div>
+          <div class="product-gallery-thumbs">
+            <img src="products/slide03_img006.png" alt="" loading="lazy" />
+            <img src="products/slide03_img007.png" alt="" loading="lazy" />
+            <img src="products/slide03_img008.png" alt="" loading="lazy" />
+          </div>
+        </div>
+
+        <div class="product-card reveal-up" data-category="gallery" data-slide="4">
+          <div class="product-img-wrap">
+            <img src="products/slide04_img009.png" alt="" loading="lazy" />
+            <div class="product-overlay">
+              <a href="#contact" class="product-overlay-btn" data-i18n="product.inquire">咨询详情</a>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Collection B</h3>
+            <p class="product-name-cn" data-i18n="gallery.name2">精选手袋系列 B</p>
+            <p class="product-desc" data-i18n="gallery.desc">多款配色可选 · OEM定制</p>
+          </div>
+          <div class="product-gallery-thumbs">
+            <img src="products/slide04_img010.png" alt="" loading="lazy" />
+            <img src="products/slide04_img011.png" alt="" loading="lazy" />
+            <img src="products/slide04_img012.jpg" alt="" loading="lazy" />
+          </div>
+        </div>
+
+        <div class="product-card reveal-up" data-category="gallery" data-slide="5">
+          <div class="product-img-wrap">
+            <img src="products/slide05_img013.png" alt="" loading="lazy" />
+            <div class="product-overlay">
+              <a href="#contact" class="product-overlay-btn" data-i18n="product.inquire">咨询详情</a>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Collection C</h3>
+            <p class="product-name-cn" data-i18n="gallery.name3">精选手袋系列 C</p>
+            <p class="product-desc" data-i18n="gallery.desc">多款配色可选 · OEM定制</p>
+          </div>
+          <div class="product-gallery-thumbs">
+            <img src="products/slide05_img014.png" alt="" loading="lazy" />
+            <img src="products/slide05_img015.png" alt="" loading="lazy" />
+            <img src="products/slide05_img016.png" alt="" loading="lazy" />
+          </div>
+        </div>
+
+        <div class="product-card reveal-up" data-category="gallery" data-slide="6">
+          <div class="product-img-wrap">
+            <img src="products/slide06_img017.png" alt="" loading="lazy" />
+            <div class="product-overlay">
+              <a href="#contact" class="product-overlay-btn" data-i18n="product.inquire">咨询详情</a>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Collection D</h3>
+            <p class="product-name-cn" data-i18n="gallery.name4">精选手袋系列 D</p>
+            <p class="product-desc" data-i18n="gallery.desc6">6款精选 · 多种风格</p>
+          </div>
+          <div class="product-gallery-thumbs">
+            <img src="products/slide06_img018.png" alt="" loading="lazy" />
+            <img src="products/slide06_img019.png" alt="" loading="lazy" />
+            <img src="products/slide06_img020.png" alt="" loading="lazy" />
+            <img src="products/slide06_img021.png" alt="" loading="lazy" />
+            <img src="products/slide06_img022.png" alt="" loading="lazy" />
+          </div>
+        </div>
+
+        <div class="product-card reveal-up" data-category="gallery" data-slide="7">
+          <div class="product-img-wrap">
+            <img src="products/slide07_img023.png" alt="" loading="lazy" />
+            <div class="product-overlay">
+              <a href="#contact" class="product-overlay-btn" data-i18n="product.inquire">咨询详情</a>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Collection E</h3>
+            <p class="product-name-cn" data-i18n="gallery.name5">精选手袋系列 E</p>
+            <p class="product-desc" data-i18n="gallery.desc">多款配色可选 · OEM定制</p>
+          </div>
+          <div class="product-gallery-thumbs">
+            <img src="products/slide07_img024.png" alt="" loading="lazy" />
+            <img src="products/slide07_img025.png" alt="" loading="lazy" />
+          </div>
+        </div>
+
+        <div class="product-card reveal-up" data-category="gallery" data-slide="8">
+          <div class="product-img-wrap">
+            <img src="products/slide08_img026.png" alt="" loading="lazy" />
+            <div class="product-overlay">
+              <a href="#contact" class="product-overlay-btn" data-i18n="product.inquire">咨询详情</a>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Collection F</h3>
+            <p class="product-name-cn" data-i18n="gallery.name6">精选手袋系列 F</p>
+            <p class="product-desc" data-i18n="gallery.desc">多款配色可选 · OEM定制</p>
+          </div>
+          <div class="product-gallery-thumbs">
+            <img src="products/slide08_img027.png" alt="" loading="lazy" />
+            <img src="products/slide08_img028.png" alt="" loading="lazy" />
+          </div>
+        </div>
+
+        <div class="product-card reveal-up" data-category="gallery" data-slide="9">
+          <div class="product-img-wrap">
+            <img src="products/slide09_img029.png" alt="" loading="lazy" />
+            <div class="product-overlay">
+              <a href="#contact" class="product-overlay-btn" data-i18n="product.inquire">咨询详情</a>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Collection G</h3>
+            <p class="product-name-cn" data-i18n="gallery.name7">精选手袋系列 G</p>
+            <p class="product-desc" data-i18n="gallery.desc">多款配色可选 · OEM定制</p>
+          </div>
+          <div class="product-gallery-thumbs">
+            <img src="products/slide09_img030.png" alt="" loading="lazy" />
+            <img src="products/slide09_img031.png" alt="" loading="lazy" />
+            <img src="products/slide09_img032.png" alt="" loading="lazy" />
+          </div>
+        </div>
+
+        <div class="product-card reveal-up" data-category="gallery" data-slide="10">
+          <div class="product-img-wrap">
+            <img src="products/slide10_img033.png" alt="" loading="lazy" />
+            <div class="product-overlay">
+              <a href="#contact" class="product-overlay-btn" data-i18n="product.inquire">咨询详情</a>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Collection H</h3>
+            <p class="product-name-cn" data-i18n="gallery.name8">精选手袋系列 H</p>
+            <p class="product-desc" data-i18n="gallery.desc">多款配色可选 · OEM定制</p>
+          </div>
+          <div class="product-gallery-thumbs">
+            <img src="products/slide10_img034.png" alt="" loading="lazy" />
+            <img src="products/slide10_img035.png" alt="" loading="lazy" />
+            <img src="products/slide10_img036.png" alt="" loading="lazy" />
+          </div>
+        </div>
+
+        <!-- ===== Gallery: Slide 20, 23-26 ===== -->
+        <div class="product-card reveal-up" data-category="gallery" data-slide="20">
+          <div class="product-img-wrap">
+            <img src="products/slide20_img092.jpg" alt="" loading="lazy" />
+            <div class="product-overlay">
+              <a href="#contact" class="product-overlay-btn" data-i18n="product.inquire">咨询详情</a>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Collection I</h3>
+            <p class="product-name-cn" data-i18n="gallery.name9">精选手袋系列 I</p>
+            <p class="product-desc" data-i18n="gallery.desc">多款配色可选 · OEM定制</p>
+          </div>
+          <div class="product-gallery-thumbs">
+            <img src="products/slide20_img093.jpg" alt="" loading="lazy" />
+            <img src="products/slide20_img094.jpg" alt="" loading="lazy" />
+            <img src="products/slide20_img095.jpg" alt="" loading="lazy" />
+            <img src="products/slide20_img096.jpg" alt="" loading="lazy" />
+            <img src="products/slide20_img097.jpg" alt="" loading="lazy" />
+          </div>
+        </div>
+
+        <div class="product-card reveal-up" data-category="gallery" data-slide="23">
+          <div class="product-img-wrap">
+            <img src="products/slide23_img104.jpg" alt="" loading="lazy" />
+            <div class="product-overlay">
+              <a href="#contact" class="product-overlay-btn" data-i18n="product.inquire">咨询详情</a>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Collection J</h3>
+            <p class="product-name-cn" data-i18n="gallery.name10">精选手袋系列 J</p>
+            <p class="product-desc" data-i18n="gallery.desc">多款配色可选 · OEM定制</p>
+          </div>
+          <div class="product-gallery-thumbs">
+            <img src="products/slide23_img105.jpg" alt="" loading="lazy" />
+            <img src="products/slide23_img106.jpg" alt="" loading="lazy" />
+            <img src="products/slide23_img107.jpg" alt="" loading="lazy" />
+            <img src="products/slide23_img108.jpg" alt="" loading="lazy" />
+          </div>
+        </div>
+
+        <div class="product-card reveal-up" data-category="gallery" data-slide="24">
+          <div class="product-img-wrap">
+            <img src="products/slide24_img109.jpg" alt="" loading="lazy" />
+            <div class="product-overlay">
+              <a href="#contact" class="product-overlay-btn" data-i18n="product.inquire">咨询详情</a>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Collection K</h3>
+            <p class="product-name-cn" data-i18n="gallery.name11">精选手袋系列 K</p>
+            <p class="product-desc" data-i18n="gallery.desc">多款配色可选 · OEM定制</p>
+          </div>
+          <div class="product-gallery-thumbs">
+            <img src="products/slide24_img110.jpg" alt="" loading="lazy" />
+            <img src="products/slide24_img111.jpg" alt="" loading="lazy" />
+            <img src="products/slide24_img112.jpg" alt="" loading="lazy" />
+            <img src="products/slide24_img113.jpg" alt="" loading="lazy" />
+            <img src="products/slide24_img114.jpg" alt="" loading="lazy" />
+          </div>
+        </div>
+
+        <div class="product-card reveal-up" data-category="gallery" data-slide="25">
+          <div class="product-img-wrap">
+            <img src="products/slide25_img115.png" alt="" loading="lazy" />
+            <div class="product-overlay">
+              <a href="#contact" class="product-overlay-btn" data-i18n="product.inquire">咨询详情</a>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Collection L</h3>
+            <p class="product-name-cn" data-i18n="gallery.name12">精选手袋系列 L</p>
+            <p class="product-desc" data-i18n="gallery.desc12">12款精选 · 多种风格</p>
+          </div>
+          <div class="product-gallery-thumbs">
+            <img src="products/slide25_img116.png" alt="" loading="lazy" />
+            <img src="products/slide25_img117.png" alt="" loading="lazy" />
+            <img src="products/slide25_img118.png" alt="" loading="lazy" />
+            <img src="products/slide25_img119.png" alt="" loading="lazy" />
+            <img src="products/slide25_img120.png" alt="" loading="lazy" />
+            <img src="products/slide25_img121.png" alt="" loading="lazy" />
+            <img src="products/slide25_img122.png" alt="" loading="lazy" />
+            <img src="products/slide25_img123.png" alt="" loading="lazy" />
+            <img src="products/slide25_img124.png" alt="" loading="lazy" />
+            <img src="products/slide25_img125.png" alt="" loading="lazy" />
+            <img src="products/slide25_img126.png" alt="" loading="lazy" />
+          </div>
+        </div>
+
+        <div class="product-card reveal-up" data-category="gallery" data-slide="26">
+          <div class="product-img-wrap">
+            <img src="products/slide26_img127.png" alt="" loading="lazy" />
+            <div class="product-overlay">
+              <a href="#contact" class="product-overlay-btn" data-i18n="product.inquire">咨询详情</a>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Collection M</h3>
+            <p class="product-name-cn" data-i18n="gallery.name13">精选手袋系列 M</p>
+            <p class="product-desc" data-i18n="gallery.desc12">12款精选 · 多种风格</p>
+          </div>
+          <div class="product-gallery-thumbs">
+            <img src="products/slide26_img128.jpg" alt="" loading="lazy" />
+            <img src="products/slide26_img129.jpg" alt="" loading="lazy" />
+            <img src="products/slide26_img130.jpg" alt="" loading="lazy" />
+            <img src="products/slide26_img131.jpg" alt="" loading="lazy" />
+            <img src="products/slide26_img132.jpg" alt="" loading="lazy" />
+            <img src="products/slide26_img133.jpg" alt="" loading="lazy" />
+            <img src="products/slide26_img134.jpg" alt="" loading="lazy" />
+            <img src="products/slide26_img135.png" alt="" loading="lazy" />
+            <img src="products/slide26_img136.png" alt="" loading="lazy" />
+            <img src="products/slide26_img137.png" alt="" loading="lazy" />
+            <img src="products/slide26_img138.png" alt="" loading="lazy" />
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CRAFT PROCESS ===== -->
+  <section class="craft" id="craft">
+    <div class="craft-bg"></div>
+    <div class="container">
+      <div class="section-header reveal-up">
+        <p class="section-eyebrow">THE PROCESS</p>
+        <h2 class="section-title" style="color:#fff" data-i18n-html="craft.title">OEM / ODM <em>合作流程</em></h2>
+        <p class="section-subtitle" style="color:rgba(255,255,255,0.7)" data-i18n="craft.subtitle">从需求沟通到成品交付，高效专业</p>
+      </div>
+      <div class="craft-steps">
+        <div class="craft-step reveal-up">
+          <div class="step-num">01</div>
+          <div class="step-icon">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M24 4C13 4 4 13 4 24s9 20 20 20 20-9 20-20S35 4 24 4z"/><path d="M16 24h16M24 16v16"/></svg>
+          </div>
+          <h3 class="step-title" data-i18n="step1.title">需求沟通</h3>
+          <p class="step-desc" data-i18n="step1.desc">通过电话、微信或邮件与我们的业务团队沟通，确认产品款式、材质、数量及交期要求。</p>
+        </div>
+        <div class="craft-step-arrow">→</div>
+        <div class="craft-step reveal-up">
+          <div class="step-num">02</div>
+          <div class="step-icon">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="8" y="8" width="32" height="32" rx="2"/><path d="M16 20h16M16 28h10"/></svg>
+          </div>
+          <h3 class="step-title" data-i18n="step2.title">样品确认</h3>
+          <p class="step-desc" data-i18n="step2.desc">根据需求制作样品，包含材质色卡确认、五金配件选择、工艺细节确认。</p>
+        </div>
+        <div class="craft-step-arrow">→</div>
+        <div class="craft-step reveal-up">
+          <div class="step-num">03</div>
+          <div class="step-icon">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 36V20l12-12 12 12v16"/><path d="M20 36v-8h8v8"/></svg>
+          </div>
+          <h3 class="step-title" data-i18n="step3.title">批量生产</h3>
+          <p class="step-desc" data-i18n="step3.desc">样品确认后安排大货生产，全程质检管控，确保每一件产品符合标准。</p>
+        </div>
+        <div class="craft-step-arrow">→</div>
+        <div class="craft-step reveal-up">
+          <div class="step-num">04</div>
+          <div class="step-icon">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M8 28l10 10L40 14"/></svg>
+          </div>
+          <h3 class="step-title" data-i18n="step4.title">质检交付</h3>
+          <p class="step-desc" data-i18n="step4.desc">成品逐项质检后精心包装，支持海运、空运多种物流方式，配送到指定仓库。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info reveal-up">
+          <p class="section-eyebrow">GET IN TOUCH</p>
+          <h2 class="section-title" data-i18n-html="contact.title">联系<em>我们</em></h2>
+          <p class="contact-desc" data-i18n="contact.desc">无论是OEM定制、样品需求还是批发询价，请随时与我们联系。</p>
+          <div class="contact-methods">
+            <div class="contact-method">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div>
+                <p class="contact-method-label" data-i18n="contact.phone_label">电话 / WhatsApp</p>
+                <p class="contact-method-value">+86 188-9850-5398</p>
+              </div>
+            </div>
+            <div class="contact-method">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <p class="contact-method-label" data-i18n="contact.address_label">公司地址</p>
+                <p class="contact-method-value" data-i18n="contact.address">中国 · 广东省佛山市</p>
+              </div>
+            </div>
+            <div class="contact-method">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div>
+                <p class="contact-method-label" data-i18n="contact.hours_label">工作时间</p>
+                <p class="contact-method-value">周一至周六 9:00 – 18:00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap reveal-up">
+          <form class="contact-form" id="contactForm">
+            <h3 class="form-title" data-i18n="form.title">询价 / 合作咨询</h3>
+            <div class="form-row">
+              <div class="form-group">
+                <label data-i18n="form.name">您的姓名 *</label>
+                <input name="name" type="text" data-i18n-placeholder="form.name_ph" placeholder="请输入姓名" required />
+              </div>
+              <div class="form-group">
+                <label data-i18n="form.phone">联系电话 *</label>
+                <input name="phone" type="tel" data-i18n-placeholder="form.phone_ph" placeholder="手机号码 / WhatsApp" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label data-i18n="form.email">邮箱 / 微信</label>
+              <input name="email" type="text" data-i18n-placeholder="form.email_ph" placeholder="方便我们联系您" />
+            </div>
+            <div class="form-group">
+              <label data-i18n="form.company">公司名称</label>
+              <input name="company" type="text" data-i18n-placeholder="form.company_ph" placeholder="您的公司名称" />
+            </div>
+            <div class="form-group">
+              <label data-i18n="form.type">合作类型</label>
+              <div class="checkbox-grid">
+                <label class="checkbox-item">
+                  <input type="checkbox" value="oem" /> <span data-i18n="form.oem">OEM代工</span>
+                </label>
+                <label class="checkbox-item">
+                  <input type="checkbox" value="odm" /> <span data-i18n="form.odm">ODM设计</span>
+                </label>
+                <label class="checkbox-item">
+                  <input type="checkbox" value="wholesale" /> <span data-i18n="form.wholesale">批发采购</span>
+                </label>
+                <label class="checkbox-item">
+                  <input type="checkbox" value="sample" /> <span data-i18n="form.sample">样品需求</span>
+                </label>
+                <label class="checkbox-item">
+                  <input type="checkbox" value="other" /> <span data-i18n="form.other">其他</span>
+                </label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label data-i18n="form.requirement">需求描述</label>
+              <textarea name="requirement" rows="4" data-i18n-placeholder="form.req_ph" placeholder="请描述您的需求：产品款式、数量、预算、交期等……"></textarea>
+            </div>
+            <button type="submit" class="btn btn-dark btn-submit">
+              <span data-i18n="form.submit">提交咨询</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+          </form>
+          <div class="form-success" id="formSuccess">
+            <div class="success-icon">✓</div>
+            <h3 data-i18n="form.success_title">咨询已收到！</h3>
+            <p data-i18n="form.success_desc">我们将在1个工作日内与您联系，请保持电话畅通。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== PAYMENT METHODS ===== -->
+    <div class="payment-section reveal-up">
+      <div class="payment-header">
+        <span class="payment-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="4" width="22" height="16" rx="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+        </span>
+        <h3 class="payment-title" data-i18n="payment.title">支付方式</h3>
+        <p class="payment-subtitle" data-i18n="payment.subtitle">我们支持以下安全的支付方式</p>
+      </div>
+      <div class="payment-methods-grid">
+        <div class="payment-method-card">
+          <div class="payment-method-icon">
+            <span class="pm-logo pp">P</span>
+          </div>
+          <div class="payment-method-info">
+            <h4>PayPal</h4>
+            <p data-i18n="payment.paypal_desc">适用于样品订单和小额交易</p>
+          </div>
+        </div>
+        <div class="payment-method-card">
+          <div class="payment-method-icon">
+            <span class="pm-logo tt">T/T</span>
+          </div>
+          <div class="payment-method-info">
+            <h4 data-i18n="payment.bank_title">银行转账 (T/T)</h4>
+            <p data-i18n="payment.bank_desc">适用于大额批量订单</p>
+          </div>
+        </div>
+        <div class="payment-method-card">
+          <div class="payment-method-icon">
+            <span class="pm-logo wise">W</span>
+          </div>
+          <div class="payment-method-info">
+            <h4>Wise Transfer</h4>
+            <p data-i18n="payment.wise_desc">快捷低成本的国际支付方式</p>
+          </div>
+        </div>
+      </div>
+      <p class="payment-note" data-i18n="payment.secure_note">🔒 所有支付均安全可靠，遵循严格的金融标准处理。</p>
+    </div>
+
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span>VEINASHE</span>
+            <small>BAGS</small>
+          </div>
+          <p class="footer-tagline">Professional Handbag Manufacturer & OEM Supplier</p>
+          <p class="footer-about" data-i18n="footer.about">专业的箱包制造商与OEM供应商，提供高品质皮革包包的设计、生产与定制服务。</p>
+        </div>
+        <div class="footer-links">
+          <h4 data-i18n="footer.nav_title">快速导航</h4>
+          <a href="#about" data-i18n="nav.about">关于我们</a>
+          <a href="#collections" data-i18n="nav.collections">产品系列</a>
+          <a href="#craft" data-i18n="nav.process">合作流程</a>
+          <a href="#contact" data-i18n="nav.contact">联系我们</a>
+        </div>
+        <div class="footer-links">
+          <h4 data-i18n="footer.service_title">服务内容</h4>
+          <a href="#craft" data-i18n="footer.oem">OEM代工</a>
+          <a href="#craft" data-i18n="footer.odm">ODM设计</a>
+          <a href="#collections" data-i18n="footer.sample">样品定制</a>
+          <a href="#contact" data-i18n="footer.wholesale">批发采购</a>
+        </div>
+        <div class="footer-social">
+          <h4 data-i18n="footer.contact_title">联系方式</h4>
+          <div class="footer-contact-quick">
+            <p>Tel / WhatsApp: 18898505398</p>
+            <p>Foshan Veinashe Bags Co., Ltd.</p>
+            <p>Guangdong, China</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Foshan Veinashe Bags Co., Ltd. All Rights Reserved.</p>
+        <p>Professional Handbag Manufacturer & OEM Supplier</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== BACK TO TOP ===== -->
+  <button class="back-top" id="backTop" aria-label="回到顶部">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+
+  <!-- ===== LIGHTBOX ===== -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose" aria-label="关闭">✕</button>
+    <button class="lightbox-prev" id="lightboxPrev" aria-label="上一张">‹</button>
+    <button class="lightbox-next" id="lightboxNext" aria-label="下一张">›</button>
+    <div class="lightbox-counter" id="lightboxCounter"></div>
+    <img class="lightbox-img" id="lightboxImg" src="" alt="" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
