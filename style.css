@@ -140,22 +140,11 @@ input, textarea, select { font-family: inherit; }
   align-items: center;
   justify-content: space-between;
 }
-.logo { display: flex; flex-direction: column; align-items: flex-start; }
-.logo-main {
-  font-family: var(--font-serif);
-  font-size: 1.5rem;
-  font-weight: 400;
-  letter-spacing: 0.3em;
-  color: var(--tan-light);
-  line-height: 1;
-}
-.logo-sub {
-  font-family: var(--font-sans);
-  font-size: 0.55rem;
-  font-weight: 500;
-  letter-spacing: 0.5em;
-  color: var(--tan);
-  margin-top: 2px;
+.logo { display: flex; align-items: center; }
+.logo-img {
+  height: 42px;
+  width: auto;
+  object-fit: contain;
 }
 .nav { display: flex; align-items: center; gap: 40px; }
 
@@ -1256,25 +1245,12 @@ section { padding: 100px 0; }
   border-bottom: 1px solid rgba(200,168,130,0.12);
 }
 .footer-logo {
-  display: flex;
-  flex-direction: column;
   margin-bottom: 16px;
 }
-.footer-logo span {
-  font-family: var(--font-serif);
-  font-size: 1.8rem;
-  font-weight: 300;
-  letter-spacing: 0.3em;
-  color: var(--tan-light);
-  line-height: 1;
-}
-.footer-logo small {
-  font-family: var(--font-sans);
-  font-size: 0.5rem;
-  font-weight: 500;
-  letter-spacing: 0.6em;
-  color: var(--tan);
-  margin-top: 4px;
+.footer-logo-img {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
 }
 .footer-tagline {
   font-family: var(--font-serif);
