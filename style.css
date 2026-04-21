@@ -142,7 +142,7 @@ input, textarea, select { font-family: inherit; }
 }
 .logo { display: flex; align-items: center; }
 .logo-img {
-  height: 42px;
+  height: 28px;
   width: auto;
   object-fit: contain;
 }
@@ -1248,7 +1248,7 @@ section { padding: 100px 0; }
   margin-bottom: 16px;
 }
 .footer-logo-img {
-  height: 40px;
+  height: 32px;
   width: auto;
   object-fit: contain;
 }
